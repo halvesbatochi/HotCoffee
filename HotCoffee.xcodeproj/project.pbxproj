@@ -10,6 +10,7 @@
 		5C39F44928C44CC5001E20BB /* WebServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C39F44828C44CC5001E20BB /* WebServices.swift */; };
 		5C39F44C28C453C6001E20BB /* Orders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C39F44B28C453C6001E20BB /* Orders.swift */; };
 		5C39F45028C457A8001E20BB /* OrderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C39F44F28C457A8001E20BB /* OrderViewModel.swift */; };
+		5C39F45228C45FA9001E20BB /* AddCoffeeOrderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C39F45128C45FA9001E20BB /* AddCoffeeOrderViewModel.swift */; };
 		5C52938928C442A9000EC6FD /* OrdersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C52938828C442A9000EC6FD /* OrdersTableViewController.swift */; };
 		5C52938B28C44319000EC6FD /* AddOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C52938A28C44319000EC6FD /* AddOrderViewController.swift */; };
 		5CB4C04E28C440A200B552BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB4C04D28C440A200B552BB /* AppDelegate.swift */; };
@@ -23,6 +24,7 @@
 		5C39F44828C44CC5001E20BB /* WebServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebServices.swift; sourceTree = "<group>"; };
 		5C39F44B28C453C6001E20BB /* Orders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Orders.swift; sourceTree = "<group>"; };
 		5C39F44F28C457A8001E20BB /* OrderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderViewModel.swift; sourceTree = "<group>"; };
+		5C39F45128C45FA9001E20BB /* AddCoffeeOrderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCoffeeOrderViewModel.swift; sourceTree = "<group>"; };
 		5C52938828C442A9000EC6FD /* OrdersTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersTableViewController.swift; sourceTree = "<group>"; };
 		5C52938A28C44319000EC6FD /* AddOrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddOrderViewController.swift; sourceTree = "<group>"; };
 		5CB4C04A28C440A200B552BB /* HotCoffee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HotCoffee.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -65,6 +67,7 @@
 			isa = PBXGroup;
 			children = (
 				5C39F44F28C457A8001E20BB /* OrderViewModel.swift */,
+				5C39F45128C45FA9001E20BB /* AddCoffeeOrderViewModel.swift */,
 			);
 			path = "View Models";
 			sourceTree = "<group>";
@@ -183,6 +186,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5C39F44C28C453C6001E20BB /* Orders.swift in Sources */,
+				5C39F45228C45FA9001E20BB /* AddCoffeeOrderViewModel.swift in Sources */,
 				5CB4C04E28C440A200B552BB /* AppDelegate.swift in Sources */,
 				5C39F44928C44CC5001E20BB /* WebServices.swift in Sources */,
 				5CB4C05028C440A200B552BB /* SceneDelegate.swift in Sources */,
