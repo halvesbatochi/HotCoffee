@@ -18,14 +18,8 @@ class OrdersTableViewController: UITableViewController {
     }
     
     private func populateOrders() {
-        
-        guard let coffeeOrdersURL = URL(string: "https://guarded-retreat-82533.herokuapp.com") else {
-            fatalError("URL was incorrect")
-        }
-        
-        let resources = Resource<[Order]>(url: coffeeOrdersURL)
-        
-        Webservices().load(resource: resources) { [weak self] result in
+  
+        Webservices().load(resource: Order.all) { [weak self] result in
             
             switch result {
                 case .success(let orders):
